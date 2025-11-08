@@ -43,7 +43,8 @@
                                     href="{{ route('CA22062') }}">Loh Min Er</a></li>
                             <li><a class="dropdown-item" href="#">member 2</a></li>
                             <li><a class="dropdown-item" href="#">member 3</a></li>
-                            <li><a class="dropdown-item" href="#">member 4</a></li>
+                            <li><a class="dropdown-item {{ request()->routeIs('CB24017') ? 'active' : '' }}"
+                                    href="{{ route('CB24017') }}">Tan Cheong Han</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
