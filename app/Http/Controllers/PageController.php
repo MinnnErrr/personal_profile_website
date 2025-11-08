@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view('contact');
     }
+
+    public function showCB24017()
+    {
+    return view('about_CB24017');
+    }
 }
