@@ -11,4 +11,6 @@ Route::get('/', [App\Http\Controllers\PageController::class, 'showHome'])->name(
 
 Route::get('/about', [App\Http\Controllers\PageController::class, 'showAbout'])->name('about');
 
+Route::get('/about', [App\Http\Controllers\PageController::class, 'showCA22062'])->name('CA22062');
+
 Route::get('/contact', [App\Http\Controllers\PageController::class, 'showContact'])->name('contact');

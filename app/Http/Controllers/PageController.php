@@ -16,6 +16,11 @@ class PageController extends Controller
         return view('about');
     }
 
+    public function showCA22062()
+    {
+        return view('about_CA22062');
+    }
+
     public function showContact()
     {
         return view('contact');
