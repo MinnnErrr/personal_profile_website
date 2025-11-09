@@ -1,5 +1,5 @@
 @extends('master')
 
 @section('content')
-<h1>home</h1>
+    <img src="{{ asset('images/test.jpg') }}" class="img-fluid d-block w-100 pt-3" alt="...">
 @endsection

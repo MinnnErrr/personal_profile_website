@@ -9,10 +9,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
-        .dropdown-item.active,
-        .dropdown-item.active{
-            background-color: rgb(200, 200, 200); 
-            color: black;
+        .navbar {
+            background-color: #0B131A !important;
+        }
+
+        .navbar .nav-link,
+        .navbar .navbar-brand {
+            color: white !important;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .navbar .navbar-brand {
+            font-weight: 600;
+        }
+
+        .navbar .nav-link.active,
+        .navbar .nav-link:hover {
+            background-color: #81CBC0 !important;
+            color: #0B131A !important;
+            border-radius: 5px !important;
+            transition: 0.3s;
+            font-weight: 500;
+        }
+
+        .navbar .dropdown-menu {
+            background-color: #0B131A;
+        }
+
+        .navbar .dropdown-item {
+            color: white;
+        }
+
+        .navbar .dropdown-item:hover,
+        .navbar .dropdown-item.active {
+            background-color: #81CBC0;
+            color: #0B131A;
+            font-weight: 500;
         }
     </style>
 </head>
@@ -28,7 +61,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}"
                             href="{{ route('home') }}">Home</a>
@@ -41,8 +74,12 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item {{ request()->routeIs('CA22062') ? 'active' : '' }}"
                                     href="{{ route('CA22062') }}">Loh Min Er</a></li>
-                            <li><a class="dropdown-item" href="#">member 2</a></li>
+                            
+                            <li><a class="dropdown-item {{ request()->routeIs('CD22076') ? 'active' : '' }}"
+                                    href="{{ route('CD22076') }}">Tai Xiao Ying</a></li>
+
                             <li><a class="dropdown-item" href="#">member 3</a></li>
+                            
                             <li><a class="dropdown-item {{ request()->routeIs('CB24017') ? 'active' : '' }}"
                                     href="{{ route('CB24017') }}">Tan Cheong Han</a></li>
                         </ul>
@@ -56,7 +93,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid m-3">
+    <div class="container-fluid p-0">
         @yield('content')
     </div>
 

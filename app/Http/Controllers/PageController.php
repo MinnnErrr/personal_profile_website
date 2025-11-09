@@ -25,4 +25,9 @@ class PageController extends Controller
     {
     return view('about_CB24017');
     }
+
+    public function showCD22076()
+    {
+    return view('about_CD22076');
+    }
 }
