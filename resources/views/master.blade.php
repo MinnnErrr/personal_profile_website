@@ -18,7 +18,6 @@
 </head>
 
 <body>
-    <div class="container"></div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('home') }}">Personal Profiles</a>
@@ -55,7 +54,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid m-3">
+    <div class="container-fluid p-3">
         @yield('content')
     </div>
 
