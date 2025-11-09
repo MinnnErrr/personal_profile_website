@@ -56,12 +56,12 @@
         width: 150px;
         height: 150px;
         object-fit: cover;
-        transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑过渡 */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
     }
 
     .member-img:hover {
-        transform: scale(1.1); /* 放大 10% */
-        box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* 添加阴影效果 */
+        transform: scale(1.1); 
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3); 
     }
     </style>
 
