@@ -47,12 +47,16 @@
             color: #0B131A;
             font-weight: 500;
         }
+
+        
+
+        
     </style>
 </head>
 
 <body>
     <div class="container"></div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('home') }}">Personal Profiles</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
