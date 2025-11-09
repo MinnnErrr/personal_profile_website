@@ -47,9 +47,6 @@
             color: #0B131A;
             font-weight: 500;
         }
-
-        
-
         
     </style>
 </head>
