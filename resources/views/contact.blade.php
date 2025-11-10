@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <div class="row min-vh-80 d-flex justify-content-center align-items-center">
+  <div class="row d-flex justify-content-center align-items-center" style="min-height: 80vh">
     <div class="col-12 col-lg-6 text-center">
       <h1>Contact Us</h1>
       <p>Feel free to reach us by filling the form.</p>

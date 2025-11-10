@@ -63,14 +63,10 @@
             outline: none;
             box-shadow: none;
         }
-
-        .min-vh-80{
-            min-height: 80vh;
-        }
-
+        
         .btn.btn-hover:hover {
-            color: #81CBC0 !important;
-            background-color: #0B131A !important;
+            background-color: #81CBC0 !important;
+            color: #0B131A !important;
             transition: 0.3s;
         }
     </style>

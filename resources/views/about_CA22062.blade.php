@@ -180,7 +180,7 @@
                                 <p class="card-text">Designed and Developed the module for users login, manage Koperasi
                                     information (admin), manage printing package (admin), and admin dashboard</p>
                                 <a class="btn btn-hover mt-3" role="button" href="#"
-                                    style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Source Code</a>
+                                    style="color: white; background-color: #0B131A; min-width: 150px;">Source Code</a>
                             </div>
                         </div>
                     </div>
@@ -198,19 +198,15 @@
                                 <h4 class="card-title">Cheng Eng Auto Accessories Service Management App</h4>
                                 <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
                                     <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f3f6fa; color: #777bb3;">php</span>
+                                        style="background-color: #f0f8ff; color: #07599d;">Flutter</span>
                                     <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #fdf4ef; color: #e44d26;">HTML</span>
+                                        style="background-color: #effaf4; color: #1e7c53;">Supabase</span>
                                     <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f9f7ed; color: #be9039;">JavaScript</span>
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f4f1ff; color: #6c10f4;">Bootstrap</span>
+                                        style="background-color: #fcf4f4; color: #d75250;">HMS Core</span>
                                 </div>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk
                                     of the card’s content.</p>
-                                <a class="btn btn-hover mt-3" role="button" href="#"
-                                    style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Source Code</a>
                             </div>
                         </div>
                     </div>
