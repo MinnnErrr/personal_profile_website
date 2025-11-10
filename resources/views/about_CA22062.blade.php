@@ -11,7 +11,8 @@
             <h1 style="color: #81CBC0;">Loh Min Er</h1>
             <br>
             <p style="color: white" class="fs-5">
-                Hello! I’m currently pursuing my Bachelor’s degree in Computer Science (Computer Systems and Networking)
+                Hello! I’m a Year 4 student currently pursuing my Bachelor’s degree in Computer Science (Computer
+                Systems and Networking)
                 at
                 Universiti Malaysia Pahang Al-Sultan Abdullah.
                 My journey in technology started with a curiosity about cyber attacks, but with the rise of AI, I’ve
@@ -75,7 +76,14 @@
                     style="background-color: #f9f7ed; color: #be9039;">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg"
                         alt="Javascript" style="height: 30px;">
-                    Javascript
+                    JavaScript
+                </span>
+                <span
+                    class="badge rounded-pill d-inline-flex align-items-center justify-content-center gap-2 py-1 px-3 fs-5"
+                    style="background-color: #f3f6fa; color: #777bb3;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+                        alt="php" style="height: 30px;">
+                    php
                 </span>
                 <span
                     class="badge rounded-pill d-inline-flex align-items-center justify-content-center gap-2 py-1 px-3 fs-5"
@@ -151,23 +159,92 @@
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center">
                         <div class="card w-75">
-                            <img src="{{ asset('images/test.jpg') }}" class="card-img-top" style="max-height: 400px"
-                                alt="">
+                            <div class="position-relative">
+                                <img src="{{ asset('images/minerProject-1.png') }}" class="card-img-top"
+                                    style="max-height: 400px">
+                                <span
+                                    class="badge rounded-pill text-bg-success position-absolute top-0 end-0 m-3">Complete</span>
+                            </div>
                             <div class="card-body">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card’s content.</p>
-                                <a class="btn mt-3" role="button" href="#" style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Visit</a>
+                                <h4 class="card-title">RapidPrint - UMPSA Koop Printing Management System</h4>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #f3f6fa; color: #777bb3;">php</span>
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #fdf4ef; color: #e44d26;">HTML</span>
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #f9f7ed; color: #be9039;">JavaScript</span>
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #f4f1ff; color: #6c10f4;">Bootstrap</span>
+                                </div>
+                                <p class="card-text">Designed and Developed the module for users login, manage Koperasi
+                                    information (admin), manage printing package (admin), and admin dashboard</p>
+                                <a class="btn btn-hover mt-3" role="button" href="#"
+                                    style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Source Code</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('images/supabase-logo-icon.png') }}" class="w-50" alt="...">
+                    <div class="d-flex justify-content-center">
+                        <div class="card w-75">
+                            <div class="position-relative">
+                                <img src="{{ asset('images/minerProject-2.png') }}" class="card-img-top"
+                                    style="max-height: 400px">
+                                <span
+                                    class="badge rounded-pill text-bg-warning position-absolute top-0 end-0 m-3">In Progress</span>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Cheng Eng Auto Accessories Service Management App</h4>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #f3f6fa; color: #777bb3;">php</span>
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #fdf4ef; color: #e44d26;">HTML</span>
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #f9f7ed; color: #be9039;">JavaScript</span>
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #f4f1ff; color: #6c10f4;">Bootstrap</span>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card’s content.</p>
+                                <a class="btn btn-hover mt-3" role="button" href="#"
+                                    style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('images/supabase-logo-icon.png') }}" class="w-50" alt="...">
+                    <div class="d-flex justify-content-center">
+                        <div class="card w-75">
+                            <div class="position-relative">
+                                <img src="{{ asset('images/minerProject-3.png') }}" class="card-img-top"
+                                    style="max-height: 400px">
+                                <span
+                                    class="badge rounded-pill text-bg-success position-absolute top-0 end-0 m-3">Complete</span>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Alzheimer's Disease Prediction App</h4>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+                                    <span class="badge rounded-pill fs-6 fw-normal"
+                                        style="background-color: #f4f7fb; color: #3773a5;">Python</span>
+                                </div>
+                                <p class="card-text">Developed a machine learning model to predict the early onset of
+                                    Alzheimer’s disease by evaluating and comparing multiple classification algorithms.
+                                    Optimized model performance through metric-based analysis, with Random Forest
+                                    selected as the final model for its superior accuracy and reliability.</p>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                                    <a class="btn btn-hover mt-3" role="button" href="#"
+                                        style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Source
+                                        Code</a>
+                                    <a class="btn btn-hover mt-3" role="button" href="#"
+                                        style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Visit</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
