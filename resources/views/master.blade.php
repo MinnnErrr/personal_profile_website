@@ -62,10 +62,14 @@
             outline: none;
             box-shadow: none;
         }
+
+        .min-vh-80{
+            min-height: 80vh;
+        }
     </style>
 </head>
 
-<body>
+<body> 
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand ms-4" href="{{ route('home') }}">Personal Profiles</a>
@@ -75,12 +79,12 @@
                 <i class="bi bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
-                    <li class="nav-item me-4 ms-md-4 mb-md-2">
+                <ul class="navbar-nav ms-auto mb-2 mt-2">
+                    <li class="nav-item me-4 ms-4 mb-2 ms-lg-0 mb-lg-0">
                         <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}"
                             href="{{ route('home') }}">Home</a>
                     </li>
-                    <li class="nav-item dropdown me-4 ms-md-4 mb-md-2">
+                    <li class="nav-item dropdown me-4 ms-4 mb-2 ms-lg-0 mb-lg-0">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             About Us
@@ -98,7 +102,7 @@
                                     href="{{ route('CB24017') }}">Tan Cheong Han</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item me-4 ms-md-4 mb-md-2">
+                    <li class="nav-item me-4 ms-4 mb-2 ms-lg-0 mb-lg-0">
                         <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
                             href="{{ route('contact') }}">Contact</a>
                     </li>
