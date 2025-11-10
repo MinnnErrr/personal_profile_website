@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\PageController::class, 'showHome'])->name('home');
 
-Route::get('/about', [App\Http\Controllers\PageController::class, 'showCA22062'])->name('CA22062');
+Route::get('/CA22062', [App\Http\Controllers\PageController::class, 'showCA22062'])->name('CA22062');
 
 Route::get('/contact', [App\Http\Controllers\PageController::class, 'showContact'])->name('contact');
 
