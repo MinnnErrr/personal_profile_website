@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-md col-lg-2 text-center">
-                <a href="{{ route('CB24017') }}"><img src="{{ asset('images/cheonghan.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 3"></a>
+                <a href="{{ route('CB24017') }}"><img src="{{ asset('images/tan.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 3"></a>
                 <h5 class="mb-1">Tan Cheong Han</h5>
                 <h5 class="mb-2">CB24017</h5>  
                 <p>description</p>                
