@@ -36,14 +36,14 @@
             </div>
 
             <div class="col-md col-lg-2 text-center">
-                <img src="{{ asset('images/test.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 3">
+                <img src="{{ asset('images/tan.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 3">
                 <h5 class="mb-1">Tan Cheong Han</h5>
                 <h5 class="mb-2">CB24017</h5>  
                 <p>description</p>                
             </div>
 
             <div class="col-md col-lg-2 text-center">
-                <img src="{{ asset('images/test.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 4">
+                <img src="{{ asset('images/victor.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 4">
                 <h5 class="mb-1">Member 4</h5>
                 <h5 class="mb-2">CBxxxx</h5>  
                 <p>description</p>                
