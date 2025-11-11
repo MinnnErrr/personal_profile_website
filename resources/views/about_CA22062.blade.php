@@ -166,9 +166,11 @@
                                     <span class="badge rounded-pill fs-6 fw-normal"
                                         style="background-color: #f4f1ff; color: #6c10f4;">Bootstrap</span>
                                 </div>
-                                <p class="card-text">Designed and Developed the module for users login, manage Koperasi
-                                    information (admin), manage printing package (admin), and admin dashboard</p>
-                                <a class="btn btn-hover mt-3" role="button" href="#"
+                                <p class="card-text">Designed and developed the UMPSA Koop Printing Management System as
+                                    part of coursework. Responsible for implementing user login, managing Koperasi
+                                    information and printing packages (admin), and developing the admin dashboard.</p>
+                                <a class="btn btn-hover mt-3" role="button"
+                                    href="https://github.com/MinnnErrr/mini-project"
                                     style="color: white; background-color: #0B131A; min-width: 150px;">Source Code</a>
                             </div>
                         </div>
@@ -193,11 +195,11 @@
                                     <span class="badge rounded-pill fs-6 fw-normal"
                                         style="background-color: #fcf4f4; color: #d75250;">HMS Core</span>
                                 </div>
-                                <p class="card-text">Developing a mobile application for Cheng Eng Auto Accessories
-                                    staffs and customers to better manage their services and data. It has functions such
-                                    as towing request management, order management, product catalog, booking management,
-                                    reward and membership point management, vehicle maintenance management, and AI
-                                    chatbot</p>
+                                <p class="card-text">Developing a mobile application for Cheng Eng Auto Accessories to
+                                    help staff and customers efficiently manage services and data. The app includes
+                                    features such as towing request management, order and booking management, product
+                                    catalog, reward and membership point tracking, vehicle maintenance management, and
+                                    an AI-powered chatbot to assist users.</p>
                             </div>
                         </div>
                     </div>
@@ -222,10 +224,12 @@
                                     Optimized model performance through metric-based analysis, with Random Forest
                                     selected as the final model for its superior accuracy and reliability.</p>
                                 <div class="d-flex flex-wrap gap-2 justify-content-center">
-                                    <a class="btn btn-hover mt-3" role="button" href="#"
+                                    <a class="btn btn-hover mt-3" role="button"
+                                        href="https://github.com/MinnnErrr/alzheimers-disease-prediction"
                                         style="color: white; background-color: #0B131A; min-width: 150px;">Source
                                         Code</a>
-                                    <a class="btn btn-hover mt-3" role="button" href="#"
+                                    <a class="btn btn-hover mt-3" role="button"
+                                        href="https://alzheimers-disease-prediction-mla.streamlit.app"
                                         style="color: white; background-color: #0B131A; min-width: 150px;">Visit</a>
                                 </div>
 
