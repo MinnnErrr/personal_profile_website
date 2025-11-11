@@ -92,10 +92,10 @@
     <h2 class="fw-bold mb-5 text-center" style="color: #81CBC0;">Skills</h2>
 
     <div class="row align-items-start">
-      <!-- Left: Tools Logos -->
-      <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
-        <h4 class="mb-3" style="color: white;">Tools & Software</h4>
-        <div class="d-flex flex-wrap gap-5">
+      <!-- Left: Tools & Software -->
+      <div class="col-md-5 mb-4 mb-md-0 text-center text-md-start">
+        <h4 class="mb-4" style="color: white;">Tools & Software</h4>
+        <div class="d-flex flex-wrap gap-4 justify-content-center justify-content-md-start">
           <div class="skill-logo">
             <img src="{{ asset('images/xy_unity.png') }}" alt="Unity" title="Unity">
           </div>
@@ -109,21 +109,13 @@
             <img src="{{ asset('images/xy_canva.png') }}" alt="Canva" title="Canva">
           </div>
           <div class="skill-logo">
-            <img src="{{ asset('images/xy_as.png') }}" alt="Android Studio" title="Android Studio">
-          </div>
-        </div>
-        <div class="d-flex flex-wrap gap-5">
-          <div class="skill-logo">
-            <img src="{{ asset('images/xy_unity.png') }}" alt="Unity" title="Unity">
+            <img src="{{ asset('images/xy_ai.png') }}" alt="Adobe Illustrator" title="Adobe Illustrator">
           </div>
           <div class="skill-logo">
-            <img src="{{ asset('images/xy_maya.png') }}" alt="Maya" title="Maya">
+            <img src="{{ asset('images/xy_ps.png') }}" alt="Photoshop" title="Photoshop">
           </div>
           <div class="skill-logo">
-            <img src="{{ asset('images/xy_figma.png') }}" alt="Figma" title="Figma">
-          </div>
-          <div class="skill-logo">
-            <img src="{{ asset('images/xy_canva.png') }}" alt="Canva" title="Canva">
+            <img src="{{ asset('images/xy_blender.png') }}" alt="Blender" title="Blender">
           </div>
           <div class="skill-logo">
             <img src="{{ asset('images/xy_as.png') }}" alt="Android Studio" title="Android Studio">
@@ -131,43 +123,49 @@
         </div>
       </div>
 
-      <!-- Right: Programming / Technical Skills -->
-      <div class="col-md-6 text-center text-md-start">
-        <h4 class="mb-3" style="color: white;">Programming & Development</h4>
+      <!-- Right: Programming / Development -->
+      <div class="col-md-7 text-center text-md-start">
+        <h4 class="mb-4" style="color: white;">Programming & Development</h4>
+
         <div class="skill-progress mb-3">
-          <span class="skill-name">HTML & CSS</span>
+          <span class="skill-name">HTML & CSS <span class="skill-percent">90%</span></span>
           <div class="progress">
-            <div class="progress-bar" style="width: 90%;"></div>
+            <div class="progress-bar" style="width: 90%"></div>
           </div>
         </div>
+
         <div class="skill-progress mb-3">
-          <span class="skill-name">JavaScript</span>
+          <span class="skill-name">JavaScript <span class="skill-percent">75%</span></span>
           <div class="progress">
-            <div class="progress-bar" style="width: 75%;"></div>
+            <div class="progress-bar" style="width: 75%"></div>
           </div>
         </div>
+
         <div class="skill-progress mb-3">
-          <span class="skill-name">C# / Unity</span>
+          <span class="skill-name">C# / Unity <span class="skill-percent">80%</span></span>
           <div class="progress">
-            <div class="progress-bar" style="width: 80%;"></div>
+            <div class="progress-bar" style="width: 80%"></div>
           </div>
         </div>
+
         <div class="skill-progress mb-3">
-          <span class="skill-name">Java / Android Studio</span>
+          <span class="skill-name">Java / Android Studio <span class="skill-percent">70%</span></span>
           <div class="progress">
-            <div class="progress-bar" style="width: 70%;"></div>
+            <div class="progress-bar" style="width: 70%"></div>
           </div>
         </div>
+
         <div class="skill-progress mb-3">
-          <span class="skill-name">PHP</span>
+          <span class="skill-name">PHP <span class="skill-percent">65%</span></span>
           <div class="progress">
-            <div class="progress-bar" style="width: 65%;"></div>
+            <div class="progress-bar" style="width: 65%"></div>
           </div>
         </div>
+
         <div class="skill-progress mb-3">
-          <span class="skill-name">Database / MySQL</span>
+          <span class="skill-name">Database / MySQL <span class="skill-percent">65%</span></span>
           <div class="progress">
-            <div class="progress-bar" style="width: 65%;"></div>
+            <div class="progress-bar" style="width: 65%"></div>
           </div>
         </div>
       </div>
@@ -176,16 +174,24 @@
 </section>
 
 <style>
-  /* Tool Logos */
+  /* Tools & Software Logos */
+  .skill-logo {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .skill-logo img {
-    width: 60px;
-    height: 60px;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     transition: transform 0.3s;
   }
 
   .skill-logo img:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
   }
 
   /* Skill Progress Bars */
@@ -194,10 +200,15 @@
   }
 
   .skill-name {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     color: white;
-    margin-bottom: 0.25rem;
     font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+
+  .skill-percent {
+    margin-left: 0.5rem;
   }
 
   .progress {
@@ -210,13 +221,14 @@
   .progress-bar {
     height: 12px;
     background-color: #81CBC0;
+    transition: width 0.6s ease;
   }
 
-  /* Responsive adjustments */
+  /* Responsive Adjustments */
   @media (max-width: 767px) {
-    .skill-logo img {
-      width: 50px;
-      height: 50px;
+    .skill-logo {
+      width: 60px;
+      height: 60px;
     }
 
     .skill-progress {
@@ -224,6 +236,7 @@
     }
   }
 </style>
+
 
 
 <style>
@@ -277,7 +290,6 @@
     position: relative;
     margin-bottom: 3rem;
     flex-wrap: wrap;
-    /* 关键: 支持中等屏幕自动换行 */
   }
 
   .timeline-left,
