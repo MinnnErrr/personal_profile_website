@@ -173,8 +173,74 @@
   </div>
 </section>
 
+<!-- Projects Section -->
+<section id="projects" class="py-5" style="background-color: #0B131A;">
+  <div class="container">
+    <h2 class="fw-bold mb-5 text-center" style="color: #81CBC0;">Projects</h2>
+
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="project-card p-3">
+          <img src="{{ asset('images/xy_yueXuan.png') }}" alt="Yue Xuan Game" class="img-fluid rounded mb-3" style="object-fit: cover;">
+          <h5 class="text-white fw-bold">Yue Xuan: Wrath of the NianShou</h5>
+          <p class="text-secondary small">A myth-inspired 2D action-adventure game where Yue Xuan battles mythical creatures and uncovers ancient secrets.</p>
+          <p class="small mb-2" style="color: #81CBC0;">Tech: Unity · C#</p>
+          
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card p-3">
+          <img src="{{ asset('images/xy_yummymatch.png') }}" alt="Yummy Match!" class="img-fluid rounded mb-3">
+          <h5 class="text-white fw-bold">Yummy Match!</h5>
+          <p class="text-secondary small">An educational game that teaches players about healthy eating and balanced meals through interactive gameplay.</p>
+          <p class="small mb-2" style="color: #81CBC0;">Tech: Unity · C# · Canva</p>
+          <div class="d-flex gap-2">
+            <a href="https://play.unity.com/en/games/fd29f477-96d6-4753-bccb-6f55ace76b26/yummy-match" class="btn btn-sm info-btn">Play Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="project-card p-3">
+          <img src="{{ asset('images/xy_rapidprint.png') }}" alt="RapidPrint System" class="img-fluid rounded mb-3">
+          <h5 class="text-white fw-bold">RapidPrint System</h5>
+          <p class="text-secondary small">A web application for managing printing services, with modules for order, payment, and staff rewards.</p>
+          <p class="small mb-2" style="color: #81CBC0;">Tech: HTML · CSS · JavaScript · PHP · MySQL</p>
+          <div class="d-flex gap-2">
+            <a href="#" class="btn btn-sm info-btn">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <style>
-  /* Tools & Software Logos */
+  .project-card {
+    background-color: #101920;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(129, 203, 192, 0.2);
+  }
+
+  .info-btn {
+    background-color: transparent;
+    border: 1px solid #81CBC0;
+    color: #81CBC0;
+    transition: 0.3s;
+  }
+</style>
+
+
+<style>
   .skill-logo {
     width: 70px;
     height: 70px;
@@ -194,7 +260,6 @@
     transform: scale(1.15);
   }
 
-  /* Skill Progress Bars */
   .skill-progress {
     width: 100%;
   }
@@ -224,7 +289,6 @@
     transition: width 0.6s ease;
   }
 
-  /* Responsive Adjustments */
   @media (max-width: 767px) {
     .skill-logo {
       width: 60px;
@@ -235,12 +299,7 @@
       margin-bottom: 1.2rem;
     }
   }
-</style>
 
-
-
-<style>
-  /* Buttons */
   .btn:hover {
     transform: scale(1.05);
   }
@@ -260,7 +319,6 @@
     transition: 0.3s;
   }
 
-  /* Timeline Section */
   .section-title {
     color: #81CBC0;
     font-size: 1.8rem;
