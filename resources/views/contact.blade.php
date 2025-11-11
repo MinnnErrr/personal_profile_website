@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container-fluid d-flex justify-content-center align-items-center my-3 p-3 position-relative" style="min-height: 87vh; background: url('{{ asset('images/bg.png') }}') no-repeat center center; 
+<div class="container-fluid d-flex justify-content-center align-items-center my-3 p-3 position-relative" style="min-height: 87vh; background: url('{{ asset('images/bg.png') }}') center; 
             background-size: cover;
             overflow: hidden;">
 
