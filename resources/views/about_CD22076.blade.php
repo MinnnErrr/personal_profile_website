@@ -20,9 +20,10 @@
         <h3 class="fw-bold mb-3" style="color: white;">Tai Xiao Ying</h3>
 
         <p style="color: white; line-height: 1.8; font-size: 1.2rem">
-          Hi! I'm an ordinary girl who stepped into the world of
-          <strong>Computer Science</strong> out of curiosity and love for programming.
-          I'm currently pursuing a
+          Hi! I'm an ordinary girl who found her passion in programming and the joy of solving problems.
+          That sense of accomplishment is what led me into the fascinating world of 
+          <strong>Computer Science.</strong>
+          I'm currently pursuing my
           <strong>Bachelor of Computer Science (Graphics & Multimedia Technology)</strong>
           at
           <strong>Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)</strong>.
@@ -31,8 +32,7 @@
         <p style="color: white; line-height: 1.8; font-size: 1.2rem">
           To me, Computer Science is a world of
           <strong>未知与无限可能</strong> — it pushes me to think deeper, explore further,
-          and never stop learning. Every challenge is an opportunity to grow, and I truly enjoy the
-          <strong>satisfaction of solving problems</strong> through logic and creativity.
+          and never stop learning. 
         </p>
 
         <div class="mt-4 d-flex flex-wrap gap-3 justify-content-center justify-content-md-start">
