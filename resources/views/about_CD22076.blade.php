@@ -2,16 +2,16 @@
 
 @section('content')
 <!-- About Me Section -->
-<section class="py-5" style="background-color: #0B131A;">
+<section id="about" class="py-5" style="background-color: #0B131A;">
   <div class="container">
     <div class="row align-items-center justify-content-center gx-5">
 
       <!-- Profile Image -->
       <div class="col-md-4 text-center mb-4 mb-md-0 d-flex justify-content-center">
         <img class="img-fluid rounded-3 shadow"
-             src="{{ asset('images/xiaoying.jpg') }}"
-             alt="Profile photo"
-             style="max-width: 320px; max-height: 320px;">
+          src="{{ asset('images/xiaoying.jpg') }}"
+          alt="Profile photo"
+          style="max-width: 320px; max-height: 320px;">
       </div>
 
       <!-- About Me Text -->
@@ -37,12 +37,12 @@
 
         <div class="mt-4 d-flex flex-wrap gap-3 justify-content-center justify-content-md-start">
           <a href="..." target="_blank"
-             class="btn fw-bold px-4 py-2 github-btn">
+            class="btn fw-bold px-4 py-2 github-btn">
             <i class="bi bi-github me-2"></i> GitHub
           </a>
 
           <a href="mailto:youremail@example.com"
-             class="btn fw-bold px-4 py-2 email-btn">
+            class="btn fw-bold px-4 py-2 email-btn">
             <i class="bi bi-envelope me-2"></i> Email
           </a>
         </div>
@@ -52,7 +52,7 @@
 </section>
 
 <!-- Education Section -->
-<section class="py-5" style="background-color: #0B131A;">
+<section id="education" class="py-5" style="background-color: #0B131A;">
   <div class="container text-center">
     <!-- Section Title -->
     <h2 class="fw-bold mb-5 section-title">Education</h2>
@@ -86,27 +86,159 @@
   </div>
 </section>
 
-<!-- Education Section -->
-<section class="py-5" style="background-color: #0B131A;">
-  <div class="container text-center">
-    <!-- Section Title -->
-    <h2 class="fw-bold mb-5 section-title">Skills</h2>
+<!-- Skills Section -->
+<section id="skills" class="py-5" style="background-color: #0B131A;">
+  <div class="container">
+    <h2 class="fw-bold mb-5 text-center" style="color: #81CBC0;">Skills</h2>
 
-  
+    <div class="row align-items-start">
+      <!-- Left: Tools Logos -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
+        <h4 class="mb-3" style="color: white;">Tools & Software</h4>
+        <div class="d-flex flex-wrap gap-5">
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_unity.png') }}" alt="Unity" title="Unity">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_maya.png') }}" alt="Maya" title="Maya">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_figma.png') }}" alt="Figma" title="Figma">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_canva.png') }}" alt="Canva" title="Canva">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_as.png') }}" alt="Android Studio" title="Android Studio">
+          </div>
+        </div>
+        <div class="d-flex flex-wrap gap-5">
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_unity.png') }}" alt="Unity" title="Unity">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_maya.png') }}" alt="Maya" title="Maya">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_figma.png') }}" alt="Figma" title="Figma">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_canva.png') }}" alt="Canva" title="Canva">
+          </div>
+          <div class="skill-logo">
+            <img src="{{ asset('images/xy_as.png') }}" alt="Android Studio" title="Android Studio">
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Programming / Technical Skills -->
+      <div class="col-md-6 text-center text-md-start">
+        <h4 class="mb-3" style="color: white;">Programming & Development</h4>
+        <div class="skill-progress mb-3">
+          <span class="skill-name">HTML & CSS</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-progress mb-3">
+          <span class="skill-name">JavaScript</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-progress mb-3">
+          <span class="skill-name">C# / Unity</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill-progress mb-3">
+          <span class="skill-name">Java / Android Studio</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill-progress mb-3">
+          <span class="skill-name">PHP</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 65%;"></div>
+          </div>
+        </div>
+        <div class="skill-progress mb-3">
+          <span class="skill-name">Database / MySQL</span>
+          <div class="progress">
+            <div class="progress-bar" style="width: 65%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
+<style>
+  /* Tool Logos */
+  .skill-logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s;
+  }
+
+  .skill-logo img:hover {
+    transform: scale(1.1);
+  }
+
+  /* Skill Progress Bars */
+  .skill-progress {
+    width: 100%;
+  }
+
+  .skill-name {
+    display: block;
+    color: white;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+  }
+
+  .progress {
+    height: 12px;
+    background-color: #333;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    height: 12px;
+    background-color: #81CBC0;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    .skill-logo img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .skill-progress {
+      margin-bottom: 1.2rem;
+    }
+  }
+</style>
+
 
 <style>
   /* Buttons */
   .btn:hover {
     transform: scale(1.05);
   }
+
   .github-btn {
     background-color: #81CBC0;
     color: #0B131A;
     border-radius: 25px;
     transition: 0.3s;
   }
+
   .email-btn {
     background-color: transparent;
     border: 2px solid #81CBC0;
@@ -144,7 +276,8 @@
     align-items: flex-start;
     position: relative;
     margin-bottom: 3rem;
-    flex-wrap: wrap; /* 关键: 支持中等屏幕自动换行 */
+    flex-wrap: wrap;
+    /* 关键: 支持中等屏幕自动换行 */
   }
 
   .timeline-left,
@@ -194,7 +327,6 @@
     border-radius: 50%;
     transform: translateX(-50%);
   }
-
 </style>
 @endsection
 
