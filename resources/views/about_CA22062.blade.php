@@ -226,10 +226,10 @@
                                     selected as the final model for its superior accuracy and reliability.</p>
                                 <div class="d-flex flex-wrap gap-2 justify-content-center">
                                     <a class="btn btn-hover mt-3" role="button" href="#"
-                                        style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Source
+                                        style="color: white; background-color: #0B131A; min-width: 150px;">Source
                                         Code</a>
                                     <a class="btn btn-hover mt-3" role="button" href="#"
-                                        style="background-color: #81CBC0; color: #0B131A; min-width: 150px;">Visit</a>
+                                        style="color: white; background-color: #0B131A; min-width: 150px;">Visit</a>
                                 </div>
 
                             </div>
