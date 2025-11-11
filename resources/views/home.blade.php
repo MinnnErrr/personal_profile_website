@@ -25,28 +25,28 @@
                 <a href="{{ route('CA22062') }}"><img src="{{ asset('images/miner.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 1"></a>
                 <h5 class="mb-1">Loh Min Er</h5>
                 <h5 class="mb-2">CA22062</h5>
-                <p>description</p>
+                <p class="px-5 px-lg-0">Bachelor’s degree in Computer Science (Computer Systems and Networking)</p>
             </div>
 
             <div class="col-md col-lg-2 text-center">
                 <a href="{{ route('CD22076') }}"><img src="{{ asset('images/xiaoying.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 2"></a>
                 <h5 class="mb-1">Tai Xiao Ying</h5>
                 <h5 class="mb-2">CD22076</h5>
-                <p>description</p>                
+                <p class="px-5 px-lg-0">description</p>                
             </div>
 
             <div class="col-md col-lg-2 text-center">
                 <a href="{{ route('CB24017') }}"><img src="{{ asset('images/tan.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 3"></a>
                 <h5 class="mb-1">Tan Cheong Han</h5>
                 <h5 class="mb-2">CB24017</h5>  
-                <p>description</p>                
+                <p class="px-5 px-lg-0">description</p>                
             </div>
 
             <div class="col-md col-lg-2 text-center">
                 <a href=""><img src="{{ asset('images/victor.jpg') }}" class="rounded-circle member-img mb-3" alt="Member 4"></a>
                 <h5 class="mb-1">Member 4</h5>
                 <h5 class="mb-2">CBxxxx</h5>  
-                <p>description</p>                
+                <p class="px-5 px-lg-0">description</p>                
             </div>
         </div>
     </div>
