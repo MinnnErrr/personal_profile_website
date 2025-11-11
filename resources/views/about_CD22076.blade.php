@@ -182,17 +182,6 @@
       <!-- Project 1 -->
       <div class="col-md-4">
         <div class="project-card p-3">
-          <img src="{{ asset('images/xy_yueXuan.png') }}" alt="Yue Xuan Game" class="img-fluid rounded mb-3" style="object-fit: cover;">
-          <h5 class="text-white fw-bold">Yue Xuan: Wrath of the NianShou</h5>
-          <p class="text-secondary small">A myth-inspired 2D action-adventure game where Yue Xuan battles mythical creatures and uncovers ancient secrets.</p>
-          <p class="small mb-2" style="color: #81CBC0;">Tech: Unity · C#</p>
-          
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="col-md-4">
-        <div class="project-card p-3">
           <img src="{{ asset('images/xy_yummymatch.png') }}" alt="Yummy Match!" class="img-fluid rounded mb-3">
           <h5 class="text-white fw-bold">Yummy Match!</h5>
           <p class="text-secondary small">An educational game that teaches players about healthy eating and balanced meals through interactive gameplay.</p>
@@ -203,7 +192,7 @@
         </div>
       </div>
 
-      <!-- Project 3 -->
+      <!-- Project 2 -->
       <div class="col-md-4">
         <div class="project-card p-3">
           <img src="{{ asset('images/xy_rapidprint.png') }}" alt="RapidPrint System" class="img-fluid rounded mb-3">
@@ -211,8 +200,42 @@
           <p class="text-secondary small">A web application for managing printing services, with modules for order, payment, and staff rewards.</p>
           <p class="small mb-2" style="color: #81CBC0;">Tech: HTML · CSS · JavaScript · PHP · MySQL</p>
           <div class="d-flex gap-2">
-            <a href="#" class="btn btn-sm info-btn">Source Code</a>
+            <a href="https://github.com/winnie-12/RapidPrint.git" class="btn btn-sm info-btn">Source Code</a>
           </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="project-card p-3">
+          <img src="{{ asset('images/xy_bettrhelp.png') }}" alt="BettrHelp" class="img-fluid rounded mb-3">
+          <h5 class="text-white fw-bold">BettrHelp</h5>
+          <p class="text-secondary small">A self-care mobile app for mood tracking, reminders, challenges, and relaxation activities.</p>
+          <p class="small mb-2" style="color: #81CBC0;">Tech: Android Studio · Java · Figma · Firebase</p>
+          <div class="d-flex gap-2">
+            <a href="https://drive.google.com/drive/folders/1C_70xzOBIGzS6SNLSyPk7xK3He5xHoVt" class="btn btn-sm info-btn">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-4">
+        <div class="project-card p-3">
+          <img src="{{ asset('images/xy_nightmares.png') }}" alt="The Subconscious Nightmares" class="img-fluid rounded mb-3">
+          <h5 class="text-white fw-bold">The Subconscious Nightmares</h5>
+          <p class="text-secondary small">A suspenseful horror adventure where players must solve puzzles and outsmart terrifying enemies inside a surreal dreamscape.</p>
+          <p class="small mb-2" style="color: #81CBC0;">Tech: Unity · C#</p>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="col-md-4">
+        <div class="project-card p-3">
+          <img src="{{ asset('images/xy_yueXuan.png') }}" alt="Yue Xuan Game" class="img-fluid rounded mb-3" style="object-fit: cover;">
+          <h5 class="text-white fw-bold">Yue Xuan: Wrath of the NianShou</h5>
+          <p class="text-secondary small">A myth-inspired 2D action-adventure game where Yue Xuan battles mythical creatures and uncovers ancient secrets.</p>
+          <p class="small mb-2" style="color: #81CBC0;">Tech: Unity · C#</p>
+
         </div>
       </div>
     </div>
