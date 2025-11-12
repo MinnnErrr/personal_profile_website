@@ -2,16 +2,14 @@
 
 @section('content')
 
-<div class="container-fluid d-flex justify-content-center align-items-center my-3 p-3 position-relative" style="min-height: 87vh; background: url('{{ asset('images/bg.png') }}') center; 
-            background-size: cover;
-            overflow: hidden;">
+<div class="container-fluid d-flex justify-content-center align-items-center my-3 p-3 position-relative background-image">
 
   <div class="position-absolute top-0 start-0 w-100 h-100" 
        style="background-color: rgba(0, 0, 0, 0.8); z-index: 1;"></div>
 
   <div class="row w-100 align-items-center position-relative" style="z-index: 2;">
     <div class="col-12 col-lg-6 text-center mb-5">
-      <h1 style="color: white">Contact Us</h1>
+      <h1 class="fw-bold" style="color: white;">Contact Us</h1>
       <p style="color: white">Feel free to reach us by filling the form.</p>
     </div>
 
@@ -41,4 +39,12 @@
   </div>
 
 </div>
+
+<style>
+  .background-image {
+    min-height: 87vh;
+    background: url('{{ asset("images/bg.png") }}') center center / cover no-repeat;
+  }
+</style>
+
 @endsection
