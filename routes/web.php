@@ -2,10 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', [App\Http\Controllers\PageController::class, 'showHome'])->name('home');
 
 Route::get('/CA22062', [App\Http\Controllers\PageController::class, 'showCA22062'])->name('CA22062');
