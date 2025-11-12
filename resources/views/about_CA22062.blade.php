@@ -1,48 +1,71 @@
 @extends('master')
 
 @section('content')
-<div class="container-fluid profile-background px-5 py-2">
-    <div class="row mb-5">
-        <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center mb-5">
-            <img src="{{ asset('images/miner.jpg') }}" class='img-fluid rounded-4'
-                style="max-width: 230px; max-height: 280px;" alt="Member 1">
-        </div>
-        <div class="col-12 col-lg-9 mb-5">
-            <h1 style="color: #81CBC0;">Loh Min Er</h1>
-            <br>
-            <p style="color: white" class="fs-5">
-                Hello! I’m a Year 4 student currently pursuing my Bachelor’s degree in Computer Science (Computer
-                Systems and Networking)
-                at
-                Universiti Malaysia Pahang Al-Sultan Abdullah.
-                My journey in technology started with a curiosity about cyber attacks, but with the rise of AI, I’ve
-                become
-                fascinated by the endless possibilities in this field, which has driven me to explore multiple areas of
-                computer science, from networking to web and mobile development, and AI.
+<div class="container-fluid profile-background px-5 py-3">
+    <div class="d-flex justify-content-center mb-5">
+        <div class="row" style="max-width: 80vw">
+            <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center mb-5">
+                <img src="{{ asset('images/miner.jpg') }}" class='img-fluid rounded-4'
+                    style="max-width: 230px; max-height: 280px;" alt="Member 1">
+            </div>
+            <div class="col-12 col-lg-9 mb-5">
+                <h1 style="color: #81CBC0;">Loh Min Er</h1>
                 <br>
-                <br>When I’m not turning ideas into solutions, I like to recharge with some good food and drama.
-            </p>
-            <br>
-            <div class="d-flex gap-4">
-                <a href="https://www.linkedin.com/in/loh-min-er" role="button"
-                    class="btn rounded-circle d-flex align-items-center justify-content-center"
-                    style="width: 50px; height: 50px; background-color: #81CBC0; color: #0B131A">
-                    <i class="bi bi-linkedin" style="font-size: 25px"></i></a>
-                <a href="mailto:ca22062@adab.umpsa.edu.my" role="button"
-                    class="btn rounded-circle d-flex align-items-center justify-content-center"
-                    style="width: 50px; height: 50px; background-color: #81CBC0; color: #0B131A">
-                    <i class="bi bi-envelope-at" style="font-size: 25px"></i></a>
-                <a href="https://github.com/MinnnErrr" role="button"
-                    class="btn rounded-circle d-flex align-items-center justify-content-center"
-                    style="width: 50px; height: 50px; background-color: #81CBC0; color: #0B131A">
-                    <i class="bi bi-github" style="font-size: 25px"></i></a>
+                <p style="color: white" class="fs-5">
+                    Hello! I’m a Year 4 student currently pursuing my Bachelor’s degree in Computer Science (Computer
+                    Systems and Networking)
+                    at
+                    Universiti Malaysia Pahang Al-Sultan Abdullah.
+                    My journey in technology started with a curiosity about cyber attacks, but with the rise of AI, I’ve
+                    become
+                    fascinated by the endless possibilities in this field, which has driven me to explore multiple areas
+                    of
+                    computer science, from networking to web and mobile development, and AI.
+                    <br>
+                    <br>When I’m not turning ideas into solutions, I like to recharge with some good food and drama.
+                </p>
+                <br>
+                <div class="d-flex gap-4">
+                    <a href="https://www.linkedin.com/in/loh-min-er" role="button"
+                        class="btn rounded-circle d-flex align-items-center justify-content-center"
+                        style="width: 50px; height: 50px; background-color: #81CBC0; color: #0B131A">
+                        <i class="bi bi-linkedin" style="font-size: 25px"></i></a>
+                    <a href="mailto:ca22062@adab.umpsa.edu.my" role="button"
+                        class="btn rounded-circle d-flex align-items-center justify-content-center"
+                        style="width: 50px; height: 50px; background-color: #81CBC0; color: #0B131A">
+                        <i class="bi bi-envelope-at" style="font-size: 25px"></i></a>
+                    <a href="https://github.com/MinnnErrr" role="button"
+                        class="btn rounded-circle d-flex align-items-center justify-content-center"
+                        style="width: 50px; height: 50px; background-color: #81CBC0; color: #0B131A">
+                        <i class="bi bi-github" style="font-size: 25px"></i></a>
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="row align-items-center justify-content-center mb-5 pb-5">
+        <h2 style="color: white;" class="mb-5 text-center">Education</h2>
+        <ul class="timeline" style="width: 60vw">
+            <li class="timeline-item">
+                <div class="timeline-content active">
+                    <p style="color: #81CBC0" class="fs-5">2022 - present</p>
+                    <h5>Bachelor of Computer Science (Computer Systems & Networking) with Honours</h5>
+                    <p>Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)</p>
+                </div>
+            </li>
+            <li class="timeline-inactive-item">
+                <div class="timeline-content">
+                    <p style="color: white" class="fs-5">2020-2022</p>
+                    <h5>Sijil Tinggi Pelajaran Malaysia (STPM)</h5>
+                    <p>Sekolah Menengah Kebangsaan Taman Desa, Bandar Country Homes<br>CGPA: 3.50</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
     <div class="row align-items-center justify-content-center text-center mb-5 pb-5">
-        <h2 style="color: white;" class="mb-5">My Skills</h2>
-        <div class="d-flex flex-wrap justify-content-center gap-4 w-75">
+        <h2 style="color: white;" class="mb-5">Skills & Tools</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-4" style="max-width: 80vw">
             <span
                 class="badge rounded-pill d-inline-flex align-items-center justify-content-center gap-2 py-1 px-3 fs-5"
                 style="background-color: #eef7ff; color: #004482;">
@@ -142,112 +165,142 @@
     </div>
 
     <div class="row align-items-center justify-content-center text-center mb-5">
-        <h2 style="color: white;" class="mb-5">My Projects</h2>
-        <div id="carouselExample" class="carousel slide w-75">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                        <div class="card w-75">
-                            <div class="position-relative">
-                                <img src="{{ asset('images/minerProject-1.png') }}" class="card-img-top"
-                                    style="max-height: 400px">
-                                <span
-                                    class="badge rounded-pill text-bg-success position-absolute top-0 end-0 m-3">Complete</span>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">RapidPrint - UMPSA Koop Printing Management System</h4>
-                                <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f3f6fa; color: #777bb3;">php</span>
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #fdf4ef; color: #e44d26;">HTML</span>
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f9f7ed; color: #be9039;">JavaScript</span>
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f4f1ff; color: #6c10f4;">Bootstrap</span>
-                                </div>
-                                <p class="card-text">Designed and developed the UMPSA Koop Printing Management System as
-                                    part of coursework. Responsible for implementing user login, managing Koperasi
-                                    information and printing packages (admin), and developing the admin dashboard.</p>
-                                <a class="btn btn-hover mt-3" role="button"
-                                    href="https://github.com/MinnnErrr/mini-project"
-                                    style="color: white; background-color: #0B131A; min-width: 150px;">Source Code</a>
-                            </div>
-                        </div>
+        <h2 style="color: white;">Projects</h2>
+        <div class="row row-cols-1 row-cols-lg-3 g-4" style="max-width: 80vw">
+            <div class="col d-flex align-items-stretch">
+                <div class="card w-100">
+                    <div class="position-relative">
+                        <img src="{{ asset('images/minerProject-1.png') }}" class="card-img-top" style="height: 220px">
+                        <span
+                            class="badge rounded-pill text-bg-success position-absolute top-0 end-0 m-3">Complete</span>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <div class="card w-75">
-                            <div class="position-relative">
-                                <img src="{{ asset('images/minerProject-2.png') }}" class="card-img-top"
-                                    style="max-height: 400px">
-                                <span class="badge rounded-pill text-bg-warning position-absolute top-0 end-0 m-3">In
-                                    Progress</span>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Cheng Eng Auto Accessories Service Management App</h4>
-                                <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f0f8ff; color: #07599d;">Flutter</span>
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #effaf4; color: #1e7c53;">Supabase</span>
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #fcf4f4; color: #d75250;">HMS Core</span>
-                                </div>
-                                <p class="card-text">Developing a mobile application for Cheng Eng Auto Accessories to
-                                    help staff and customers efficiently manage services and data. The app includes
-                                    features such as towing request management, order and booking management, product
-                                    catalog, reward and membership point tracking, vehicle maintenance management, and
-                                    an AI-powered chatbot to assist users.</p>
-                            </div>
+                    <div class="card-body">
+                        <h4 class="card-title">RapidPrint - UMPSA Koop Printing Management System</h4>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #f3f6fa; color: #777bb3;">php</span>
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #fdf4ef; color: #e44d26;">HTML</span>
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #f9f7ed; color: #be9039;">JavaScript</span>
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #f4f1ff; color: #6c10f4;">Bootstrap</span>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <div class="card w-75">
-                            <div class="position-relative">
-                                <img src="{{ asset('images/minerProject-3.png') }}" class="card-img-top"
-                                    style="max-height: 400px">
-                                <span
-                                    class="badge rounded-pill text-bg-success position-absolute top-0 end-0 m-3">Complete</span>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Alzheimer's Disease Prediction App</h4>
-                                <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
-                                    <span class="badge rounded-pill fs-6 fw-normal"
-                                        style="background-color: #f4f7fb; color: #3773a5;">Python</span>
-                                </div>
-                                <p class="card-text">Developed a machine learning model to predict the early onset of
-                                    Alzheimer’s disease by evaluating and comparing multiple classification algorithms.
-                                    Optimized model performance through metric-based analysis, with Random Forest
-                                    selected as the final model for its superior accuracy and reliability.</p>
-                                <div class="d-flex flex-wrap gap-2 justify-content-center">
-                                    <a class="btn btn-hover mt-3" role="button"
-                                        href="https://github.com/MinnnErrr/alzheimers-disease-prediction"
-                                        style="color: white; background-color: #0B131A; min-width: 150px;">Source
-                                        Code</a>
-                                    <a class="btn btn-hover mt-3" role="button"
-                                        href="https://alzheimers-disease-prediction-mla.streamlit.app"
-                                        style="color: white; background-color: #0B131A; min-width: 150px;">Visit</a>
-                                </div>
-
-                            </div>
-                        </div>
+                        <p class="card-text">Designed and developed the UMPSA Koop Printing Management System as
+                            part of coursework. Responsible for implementing user login, managing Koperasi
+                            information and printing packages (admin), and developing the admin dashboard.</p>
+                        <a class="btn btn-hover mt-3" role="button" href="https://github.com/MinnnErrr/mini-project"
+                            style="color: white; background-color: #0B131A; min-width: 150px;">Source Code</a>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="col d-flex align-items-stretch">
+                <div class="card w-100">
+                    <div class="position-relative">
+                        <img src="{{ asset('images/minerProject-2.png') }}" class="card-img-top" style="height: 220px">
+                        <span class="badge rounded-pill text-bg-warning position-absolute top-0 end-0 m-3">In
+                            Progress</span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Cheng Eng Auto Accessories Service Management App</h4>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #f0f8ff; color: #07599d;">Flutter</span>
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #effaf4; color: #1e7c53;">Supabase</span>
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #fcf4f4; color: #d75250;">HMS Core</span>
+                        </div>
+                        <p class="card-text">Developing a mobile application for Cheng Eng Auto Accessories to
+                            help staff and customers efficiently manage services and data. The app includes
+                            features such as towing request management, order and booking management, product
+                            catalog, reward and membership point tracking, vehicle maintenance management, and
+                            an AI-powered chatbot to assist users.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex align-items-stretch">
+                <div class="card w-100">
+                    <div class="position-relative">
+                        <img src="{{ asset('images/minerProject-3.png') }}" class="card-img-top" style="height: 220px">
+                        <span
+                            class="badge rounded-pill text-bg-success position-absolute top-0 end-0 m-3">Complete</span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Alzheimer's Disease Prediction App</h4>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center mb-3">
+                            <span class="badge rounded-pill fs-6 fw-normal"
+                                style="background-color: #f4f7fb; color: #3773a5;">Python</span>
+                        </div>
+                        <p class="card-text">Developed a machine learning model to predict the early onset of
+                            Alzheimer’s disease by evaluating and comparing multiple classification algorithms.
+                            Optimized model performance through metric-based analysis, with Random Forest
+                            selected as the final model for its superior accuracy and reliability.</p>
+                        <div class="d-flex flex-wrap gap-2 justify-content-center">
+                            <a class="btn btn-hover mt-3" role="button"
+                                href="https://github.com/MinnnErrr/alzheimers-disease-prediction"
+                                style="color: white; background-color: #0B131A; min-width: 150px;">Source
+                                Code</a>
+                            <a class="btn btn-hover mt-3" role="button"
+                                href="https://alzheimers-disease-prediction-mla.streamlit.app"
+                                style="color: white; background-color: #0B131A; min-width: 150px;">Visit</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+<style>
+    .timeline {
+        position: relative;
+        list-style: none;
+        padding-left: 40px;
+        border-left: 3px solid #fff;
+    }
+
+    .timeline-item,
+    .timeline-inactive-item {
+        position: relative;
+        margin-bottom: 50px;
+        color: white;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -51px;
+        top: 19px;
+        width: 20px;
+        height: 20px;
+        background-color: #81CBC0;
+        border: 3px solid white;
+        border-radius: 50%;
+    }
+
+    .timeline-inactive-item::before {
+        content: '';
+        position: absolute;
+        left: -51px;
+        top: 19px;
+        width: 20px;
+        height: 20px;
+        background-color: #0B131A;
+        border: 3px solid white;
+        border-radius: 50%;
+    }
+
+    .timeline-content {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+
+    .timeline-content.active {
+        box-shadow: 0 0 20px rgba(129, 203, 192, 0.4);
+    }
+</style>
 
 @endsection
