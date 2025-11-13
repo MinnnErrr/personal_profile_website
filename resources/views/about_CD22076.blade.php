@@ -293,10 +293,7 @@
     transition: 0.3s ease;
     box-shadow: 0 0 15px rgba(129, 203, 192, 0.3);
   }
-</style>
 
-
-<style>
   .project-card {
     background-color: #101920;
     border-radius: 15px;
