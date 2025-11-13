@@ -98,15 +98,7 @@
 
                             <li><a class="dropdown-item {{ request()->routeIs('CD22076') ? 'active' : '' }}"
                                     href="{{ route('CD22076') }}">Tai Xiao Ying</a></li>
-<<<<<<< HEAD
                             <li><a class="dropdown-item" href="#">member 3</a></li>
-=======
-
-                            <li><a class="dropdown-item {{ request()->routeIs('CB22109') ? 'active' : '' }}"
-                                    href="{{ route('CB22109') }}">Sor Victor</a></li>
-    
-
->>>>>>> f91d69844c53c521715b6304e19889b3ba23439f
                             <li><a class="dropdown-item {{ request()->routeIs('CB24017') ? 'active' : '' }}"
                                     href="{{ route('CB24017') }}">Tan Cheong Han</a></li>
                         </ul>

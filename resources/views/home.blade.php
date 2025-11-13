@@ -79,10 +79,4 @@
     }
 </style>
 
-<<<<<<< HEAD
 @endsection
-=======
-
-
-@endsection
->>>>>>> f91d69844c53c521715b6304e19889b3ba23439f
