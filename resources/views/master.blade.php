@@ -98,9 +98,7 @@
 
                             <li><a class="dropdown-item {{ request()->routeIs('CD22076') ? 'active' : '' }}"
                                     href="{{ route('CD22076') }}">Tai Xiao Ying</a></li>
-
                             <li><a class="dropdown-item" href="#">member 3</a></li>
-
                             <li><a class="dropdown-item {{ request()->routeIs('CB24017') ? 'active' : '' }}"
                                     href="{{ route('CB24017') }}">Tan Cheong Han</a></li>
                         </ul>

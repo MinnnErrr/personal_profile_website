@@ -78,6 +78,4 @@
     }
 </style>
 
-
-
 @endsection
