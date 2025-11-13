@@ -96,7 +96,7 @@
                             <li><a class="dropdown-item {{ request()->routeIs('CA22062') ? 'active' : '' }}"
                                     href="{{ route('CA22062') }}">Loh Min Er</a></li>
                             <li><a class="dropdown-item {{ request()->routeIs('CD22076') ? 'active' : '' }}"
-                          s          href="{{ route('CD22076') }}">Tai Xiao Ying</a></li>
+                                    href="{{ route('CD22076') }}">Tai Xiao Ying</a></li>
                             <li><a class="dropdown-item {{ request()->routeIs('CB22109') ? 'active' : '' }}"
                                     href="{{ route('CB22109') }}">Sor Victor</a></li>
                             <li><a class="dropdown-item {{ request()->routeIs('CB24017') ? 'active' : '' }}"
