@@ -1,11 +1,13 @@
 @extends('master')
 
 @section('content')
-<div class="position-relative text-center">
-    <img src="{{ asset('images/bg.png') }}" class="img-fluid d-block w-100 pt-3" alt="bg_home"
-        style="height: 650px; object-fit: cover;">
-    <h2 class="position-absolute top-50 start-50 translate-middle text-white fw-bold display-4">
-        <span class="text-white">LARAVEL TEAM</span>
+<div class="container-fluid d-flex text-center my-3 p-3 position-relative background-image">
+    <div class="position-absolute top-0 start-0 w-100 h-100"
+        style="background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+    </div>
+
+    <h2 class="position-absolute top-50 start-50 translate-middle text-white fw-bold display-5" style="z-index: 2;">
+        <span class="text-white">INTEGRATED APPLICATION DEVELOPMENT FRAMEWORK </span>
         <span style="color: #81CBC0;">GROUP 8</span>
     </h2>
 </div>
@@ -44,20 +46,25 @@
                     class="rounded-circle member-img mb-3" alt="Member 3"></a>
             <h5 class="mb-1">Tan Cheong Han</h5>
             <h5 class="mb-2">CB24017</h5>
-            <p>description</p>
+            <p>Bachelor of Computer Science (Software Engineering) with Honours</p>
         </div>
 
         <div class="col-md col-lg-2 text-center">
             <a href=""><img src="{{ asset('images/victor.jpg') }}" class="rounded-circle member-img mb-3"
                     alt="Member 4"></a>
-            <h5 class="mb-1">Member 4</h5>
-            <h5 class="mb-2">CBxxxx</h5>
-            <p>description</p>
+            <h5 class="mb-1">Sor Victor</h5>
+            <h5 class="mb-2">CB22109</h5>
+            <p>Bachelor of Computer Science (Software Engineering) with Honours</p>
         </div>
     </div>
 </div>
 
 <style>
+    .background-image {
+        min-height: 87vh;
+        background: url('{{ asset("images/bg.png") }}') center center / cover no-repeat;
+    }
+
     .member-img {
         width: 150px;
         height: 150px;
