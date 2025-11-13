@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-md col-lg-2 text-center">
-            <a href=""><img src="{{ asset('images/victor.jpg') }}" class="rounded-circle member-img mb-3"
+            <a href="{{ route('CB22109') }}"><img src="{{ asset('images/victor.jpg') }}" class="rounded-circle member-img mb-3"
                     alt="Member 4"></a>
             <h5 class="mb-1">Sor Victor</h5>
             <h5 class="mb-2">CB22109</h5>
