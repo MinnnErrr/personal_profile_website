@@ -36,7 +36,7 @@
                     class="rounded-circle member-img mb-3" alt="Member 2"></a>
             <h5 class="mb-1">Tai Xiao Ying</h5>
             <h5 class="mb-2">CD22076</h5>
-            <p>Font-End Developer</p>
+            <p>Bachelor of Computer Science (Graphics & Multimedia Technology) with Honours</p>
         </div>
 
         <div class="col-md col-lg-2 text-center">
