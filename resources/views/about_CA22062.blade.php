@@ -50,7 +50,7 @@
                 <div class="timeline-content active">
                     <p style="color: #81CBC0" class="fs-5">2022 - present</p>
                     <h5>Bachelor of Computer Science (Computer Systems & Networking) with Honours</h5>
-                    <p>Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)</p>
+                    <p>Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)<br>CGPA: 3.95</p>
                 </div>
             </li>
             <li class="timeline-inactive-item">
@@ -299,7 +299,7 @@
     }
 
     .timeline-content.active {
-        box-shadow: 0 0 20px rgba(129, 203, 192, 0.4);
+        box-shadow: 0 0 20px rgba(129, 203, 192, 0.5);
     }
 </style>
 
