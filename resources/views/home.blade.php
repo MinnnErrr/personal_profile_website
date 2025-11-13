@@ -29,8 +29,8 @@
                     class="rounded-circle member-img mb-3" alt="Member 1"></a>
             <h5 class="mb-1">Loh Min Er</h5>
             <h5 class="mb-2">CA22062</h5>
-            <p>Bachelor’s degree in Computer Science (Computer
-                Systems and Networking)</p>
+            <p>Bachelor’s of Computer Science (Computer
+                Systems and Networking) with Honours</p>
         </div>
 
         <div class="col-md col-lg-2 text-center">
