@@ -54,6 +54,7 @@
                     alt="Member 4"></a>
             <h5 class="mb-1">Sor Victor</h5>
             <h5 class="mb-2">CB22109</h5>
+
             <p>Bachelor of Computer Science (Software Engineering) with Honours</p>
         </div>
     </div>
@@ -78,4 +79,10 @@
     }
 </style>
 
+<<<<<<< HEAD
 @endsection
+=======
+
+
+@endsection
+>>>>>>> f91d69844c53c521715b6304e19889b3ba23439f
