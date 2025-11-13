@@ -2,6 +2,9 @@
 
 @section('content')
 <h1 class="text-center">About Me</h1>
+<div class="text-center">
+<img src="images/tan.jpg" alt="My Photo" class="img-fluid mb-4 rounded" style="height: 300px;">
+</div>
 <table class="table table-bordered mx-auto" style="width:50%;">
   
   <tbody>
