@@ -10,7 +10,7 @@ class PageController extends Controller
     {
         return view('home');
     }
-    
+
     public function showCA22062()
     {
         return view('about_CA22062');
@@ -29,5 +29,9 @@ class PageController extends Controller
     public function showCD22076()
     {
     return view('about_CD22076');
+    }
+     public function showCB22109()
+    {
+    return view('about_CB22109');
     }
 }

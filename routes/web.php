@@ -11,3 +11,4 @@ Route::get('/contact', [App\Http\Controllers\PageController::class, 'showContact
 Route::get('/CB24017', [App\Http\Controllers\PageController::class, 'showCB24017'])->name('CB24017');
 
 Route::get('/CD22076', [App\Http\Controllers\PageController::class, 'showCD22076'])->name('CD22076');
+Route::get('/CB22109', [App\Http\Controllers\PageController::class, 'showCB22109'])->name('CB22109');
